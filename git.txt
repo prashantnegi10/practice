@@ -1,0 +1,42 @@
+Branching in git
+	git branch <branch name>
+	git branch
+	git switch <branch name>
+
+Delete and Rename the branch
+	git branch -d <branch name>
+	git branch -m <branch name>
+
+Merge Branch
+	git merge <branch name>
+
+Check out old commits
+	git log --oneline   //it will give the hash code of all the commits
+	git checkout <hash code>
+
+Reattaching head
+	git switch <branch name>
+			or
+	git switch -
+
+
+Git restore
+	git restore <filename>
+	git restore --staged <filename>
+
+Git reset
+	git reset <hash code>
+	git reset --hard <hash code>
+
+
+Stashing in Git
+	git stash
+	git stash pop
+	git stash apply
+	git stash list
+
+
+Drop and clear stash	
+	git stash drop stashname
+	git stash clear
+		
